@@ -32,7 +32,7 @@ button.destroy {
 body {
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.4em;
-  color: #4d4d4d;
+  color: #282c34;
   min-width: 230px;
   max-width: 550px;
   margin: 0 auto;
@@ -51,7 +51,7 @@ body {
 
 .todoapp {
   width: 90%;
-  background: #fff;
+  background: rgb(108, 216, 235);
   margin: 80px auto 40px auto;
   position: relative;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
@@ -60,19 +60,19 @@ body {
 .todoapp input::-webkit-input-placeholder {
   font-style: italic;
   font-weight: 300;
-  color: #a5a5a5;
+  color: #060b4d;
 }
 
 .todoapp input::-moz-placeholder {
   font-style: italic;
   font-weight: 300;
-  color: #a5a5a5;
+  color: #05093a;
 }
 
 .todoapp input::input-placeholder {
   font-style: italic;
   font-weight: 300;
-  color: #a5a5a5;
+  color: #05093a;
 }
 
 h1 {
@@ -132,6 +132,10 @@ h1 {
   cursor: pointer;
 }
 
+.mano {
+  cursor: pointer;
+}
+
 .todo-list li:last-child {
   border-bottom: none;
 }
@@ -145,7 +149,7 @@ h1 {
 }
 
 .todo-list li.completed label {
-  color: #a5a5a5;
+  color: #da1515;
   text-decoration: line-through;
 }
 
@@ -165,7 +169,7 @@ h1 {
 }
 
 .todo-list li .destroy:hover {
-  color: #af5b5e;
+  color: #da1515;
 }
 
 .todo-list li .destroy:after {

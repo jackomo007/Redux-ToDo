@@ -12,7 +12,6 @@ const todos = (state = initialState, action) => {
         }
       ];
     case "TOGGLE_COMPLETION":
-      console.log('action', action);
       return state.map(todo =>
         todo.id === action.id ? { ...todo, completed: !todo.completed } : todo
       );

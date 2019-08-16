@@ -18,16 +18,15 @@ export const toggleCompletion = id => {
 };
 
 export const addItemFromWeb = () => {
-    return dispatch => {
-        axios.get('https://jsonplaceholder.typicode.com/todos/1')
-        .then((response) =>{
-            console.log(response);
-            dispatch(addItem(response.data.title));
-        })
-        .catch((error) => {
-            console.log(error);
-        })
-    }
+  return dispatch => {
+    axios.get('https://jsonplaceholder.typicode.com/todos/21')
+      .then((response) => {
+        dispatch(addItem(response.data.title));
+      })
+      .catch((error) => {
+        console.log(error);
+      })
+  }
 }
 
 export const removeItem = id => {
