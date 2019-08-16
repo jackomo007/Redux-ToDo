@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background: linear-gradient(141deg,#bef0f5 0,#282c34 51%,#20232a 75%);
+  background: linear-gradient(141deg,#61dafb 0,#282c34 51%,#20232a 75%);
 }
 
 html,
@@ -51,7 +51,7 @@ body {
 
 .todoapp {
   width: 90%;
-  background: rgb(108, 216, 235);
+  background: rgb(17, 193, 236);
   margin: 80px auto 40px auto;
   position: relative;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
@@ -163,17 +163,17 @@ h1 {
   height: 40px;
   margin: auto 0;
   font-size: 30px;
-  color: #00d8ff;
+  color: #bf360c;
   margin-bottom: 11px;
   transition: color 0.2s ease-out;
 }
 
 .todo-list li .destroy:hover {
-  color: #da1515;
+  color: #f4511e;
 }
 
 .todo-list li .destroy:after {
-  content: "×";
+  content: "delete";
 }
 
 .todo-list li:hover {
@@ -196,7 +196,8 @@ footer {
   height: 40px;
   display: flex;
   border-top: 1px solid #ededed;
-  background: #ededed;
+  color: #ededed;
+  background: linear-gradient(141deg,#61dafb 0,#3b414d 60%,#535f7c 90%);
   align-items: center;
   justify-content: space-around;
   font-size: 16px;

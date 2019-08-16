@@ -14,9 +14,8 @@ class App extends Component {
         >
           <div className="view">
             <label> {item.title} </label>
-            <button className="destroy"
-              onClick={() => this.props.removeItem(item.id)}
-            />
+            <i className="destroy material-icons mano" onClick={() => this.props.removeItem(item.id)}>
+            </i>
           </div>
         </li>
       )
@@ -37,7 +36,7 @@ class App extends Component {
   render() {
     return (
       <section>
-        <h1>List of things To Do</h1>
+        <h1>To Do?</h1>
         <div className="todoapp">
           <header className="header">
             <input
